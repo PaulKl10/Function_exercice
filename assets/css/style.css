@@ -1,0 +1,29 @@
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 200px;
+    color: bisque;
+}
+body{
+    background-color: black;
+}
+a{
+    font-size: 2rem;
+    background-color: bisque;
+    transition: 0.7s;
+    color: black;
+    margin: auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: none;
+    padding: 10px; 
+    border: 1px solid black;
+}
+a:hover{
+    background-color: red;
+    color:  white;
+}

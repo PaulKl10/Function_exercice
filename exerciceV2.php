@@ -16,8 +16,9 @@ Arrondi($number);
 function Arrondi($number1)
 {
     $number_arrondi_05 = round(($number1/5), 1)*5;
-    echo "<p>".$number1." = ".$number_arrondi_05."</p>";
+    return $number_arrondi_05;
 }
+echo "<p>".$number." = ".Arrondi($number)."</p>";
 require_once 'layout/footer.php';
 
 
